@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import './Static/CSS/style.css';
 import './Static/CSS/chat.css';
 import Home from './pages/Home';
@@ -13,10 +14,24 @@ import Services from './pages/Services';
 import CareerForm from './pages/CareerForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Preloader from './Elements/Preloader/Preloader'; // Import Preloader component
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading time for demonstration
+    const timer = setTimeout(() => {
+      setLoading(false);  // Set loading to false after 3 seconds
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
+      {loading ? <Preloader /> : null}  {/* Show Preloader while loading */}
+      
       <Router>
         <MetaTags />
         <Navbar />

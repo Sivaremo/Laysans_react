@@ -129,7 +129,7 @@ const Careers = () => {
                         <i className={career.Iconclassname}></i>
                       </div>
                       <h4>
-                        <a href={`/#/careerform?id=${career.id}&name=${encodeURIComponent(career.JobName)}`}>
+                        <a href={`/React_Laysans/#/careerform?id=${career.id}&name=${encodeURIComponent(career.JobName)}`}>
                           {career.JobName}
                         </a>
                       </h4>
@@ -139,7 +139,7 @@ const Careers = () => {
                       <a
                         type="button"
                         className="btn btn-danger"
-                        href={`/#/careerform?id=${career.id}&name=${encodeURIComponent(career.JobName)}`}
+                        href={`/React_Laysans/#/careerform?id=${career.id}&name=${encodeURIComponent(career.JobName)}`}
                       >
                         Apply Now
                       </a>

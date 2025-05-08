@@ -60,7 +60,7 @@ const Chat = () => {
         <div className="chatbox__header">
           <div className="chatbox__image--header">
             <img
-              src="/Static/chatbot/images (1).jpeg"
+              src="./Static/chatbot/images (1).jpeg"
               style={{ height: "60px", width: "auto", borderRadius: "50%" }}
               alt="Chatbot"
             />
@@ -106,7 +106,7 @@ const Chat = () => {
 
       <div className="chatbox__button">
         <button onClick={toggleChatbox}>
-          <img src="/Static/chatbot/chatbox-icon.svg" alt="Chat Toggle" />
+          <img src="./Static/chatbot/chatbox-icon.svg" alt="Chat Toggle" />
         </button>
       </div>
     </div>
