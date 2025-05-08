@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 
 const carouselItems = [
   {
-    img: "../Static/Image/slider1.jpg",
+    img: "./Static/Image/slider1.jpg",
     title: "Innovative IT Solutions",
     text: "Laysans Solutions – Empowering businesses with cutting-edge technology for a smarter future.",
   },
   {
-    img: "../Static/Image/slider2.jpg",
+    img: "./Static/Image/slider2.jpg",
     title: "Secure & Scalable Cloud Computing",
     text: "Laysans Solutions – Seamless cloud integration to optimize business efficiency and data security.",
   },
   {
-    img: "../Static/Image/Slider3.jpeg",
+    img: "./Static/Image/Slider3.jpeg",
     title: "Next-Gen Cybersecurity",
     text: "Laysans Solutions – Protecting your digital assets with advanced security solutions and AI-driven threat detection.",
   },

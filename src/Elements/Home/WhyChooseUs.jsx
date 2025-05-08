@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    img: "../../Static/Image/tech.jpeg",
+    img: "./Static/Image/tech.jpeg",
     title: "Cutting-Edge Technology",
     desc: "We leverage the latest technologies to build innovative and scalable solutions.",
   },
